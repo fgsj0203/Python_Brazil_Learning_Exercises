@@ -13,3 +13,7 @@ elif((numberTwo > numberThree) and (numberTwo > numberOne)):
     print("Bigger is number two: ", numberTwo)
 elif((numberThree > numberOne) and (numberThree > numberTwo)):
     print("Bigger is number three: ", numberThree)
+
+
+#Code of print bigger number using function native of Python
+print(max(numberOne, numberTwo, numberThree))
