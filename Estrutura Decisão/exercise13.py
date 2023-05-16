@@ -23,8 +23,8 @@ elif(averageNotes < 7.5 and averageNotes >= 6.0):
 elif(averageNotes < 6.0 and averageNotes >= 4.0):
     print("D")
     print("Repproved")
-elif(averageNotes < 4.0 and averageNotes >= 0.0):
+elif(averageNotes < 4.0 and averageNotes > 0.0):
     print("E")
     print("Repproved")
-elif(averageNotes < 0.0 and averageNotes > 10.0):
+elif(averageNotes < 0.0 or averageNotes > 10.0):
     print("Invalid")
