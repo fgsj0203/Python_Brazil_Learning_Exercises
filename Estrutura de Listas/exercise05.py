@@ -12,7 +12,7 @@ listNumbersPair = []
 listNumbersOdd = []
 
 #Operation of calculating numbers pair and odd
-for x in range(0,6):
+for x in range(0,20):
     number = int(input("Enter with a number: "))
     listNumbersGeneral.append(number)
     if (number % 2 == 0):
